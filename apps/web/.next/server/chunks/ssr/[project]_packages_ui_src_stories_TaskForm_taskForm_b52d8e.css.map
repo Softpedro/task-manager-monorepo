@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/packages/ui/src/stories/TaskForm/taskForm.css"],"sourcesContent":[".task-form {\n  border: 1px solid #ddd;\n  border-radius: 5px;\n  background-color: #fff;\n  padding: 16px;\n  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);\n}\n\n.task-form input,\n.task-form textarea,\n.task-form select {\n  margin-bottom: 10px;\n}\n\n.task-form button {\n  background-color: #28a745;\n  color: #fff;\n}\n\n.task-form button:hover {\n  background-color: #218838;\n}\n\nbody {\n  font-family: Arial, sans-serif;\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n  background-color: #f5f5f5;\n  color: #333;\n}\n\nbutton {\n  cursor: pointer;\n  font-size: 14px;\n  padding: 8px 12px;\n  border: none;\n  border-radius: 4px;\n  background-color: #007bff;\n  color: #fff;\n  transition: background-color 0.3s ease;\n}\n\nbutton:hover {\n  background-color: #0056b3;\n}\n\ninput,\ntextarea,\nselect {\n  width: 100%;\n  padding: 8px;\n  font-size: 14px;\n  margin: 4px 0;\n  border: 1px solid #ccc;\n  border-radius: 4px;\n}\n\ninput:focus,\ntextarea:focus,\nselect:focus {\n  outline: none;\n  border-color: #007bff;\n}\n"],"names":[],"mappings":"AAAA;;;;;;;;AAQA;;;;AAMA;;;;;AAKA;;;;AAIA;;;;;;;;;AASA;;;;;;;;;;;AAWA;;;;AAIA;;;;;;;;;AAWA"}},
+    {"offset": {"line": 59, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

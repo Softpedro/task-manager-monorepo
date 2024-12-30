@@ -1,0 +1,16 @@
+.storybook-input {
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.storybook-input--error {
+  border-color: red;
+}
+
+.storybook-input--success {
+  border-color: green;
+}

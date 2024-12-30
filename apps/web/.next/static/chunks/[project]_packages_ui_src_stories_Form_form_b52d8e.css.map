@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/packages/ui/src/stories/Form/form.css"],"sourcesContent":["form {\n  display: flex;\n  flex-direction: column;\n  gap: 10px;\n  width: 100%;\n  max-width: 400px;\n}\n\nbutton {\n  padding: 10px 20px;\n  background-color: #007bff;\n  color: white;\n  border: none;\n  border-radius: 4px;\n  cursor: pointer;\n}\n\nbutton:disabled {\n  background-color: #aaa;\n  cursor: not-allowed;\n}\n"],"names":[],"mappings":"AAAA;;;;;;;;AAQA;;;;;;;;;AASA"}},
+    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 55, "column": 0}, "map": {"version":3,"sources":["file:///Users/pedromollehuancatorres/Documents/teach/pruebas/monorepo-demo/apps/backend/apps/backend/app/api/login/route.ts"],"sourcesContent":["import { NextRequest, NextResponse } from \"next/server\";\n\nexport async function POST(req: NextRequest) {\n  const { username, password } = await req.json();\n\n  if (username === \"admin\" && password === \"admin\") {\n    return NextResponse.json({ token: \"mocked-jwt-token\" });\n  }\n\n  return NextResponse.json({ error: \"Invalid credentials\" }, { status: 401 });\n}\n"],"names":[],"mappings":";;;AAAA;;AAEO,eAAe,KAAK,GAAgB;IACzC,MAAM,EAAE,QAAQ,EAAE,QAAQ,EAAE,GAAG,MAAM,IAAI,IAAI;IAE7C,IAAI,aAAa,WAAW,aAAa,SAAS;QAChD,OAAO,+PAAA,CAAA,eAAY,CAAC,IAAI,CAAC;YAAE,OAAO;QAAmB;IACvD;IAEA,OAAO,+PAAA,CAAA,eAAY,CAAC,IAAI,CAAC;QAAE,OAAO;IAAsB,GAAG;QAAE,QAAQ;IAAI;AAC3E"}},
+    {"offset": {"line": 73, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

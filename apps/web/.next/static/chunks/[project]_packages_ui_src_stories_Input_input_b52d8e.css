@@ -1,0 +1,19 @@
+/* [project]/packages/ui/src/stories/Input/input.css [app-client] (css) */
+.storybook-input {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.storybook-input--error {
+  border-color: red;
+}
+
+.storybook-input--success {
+  border-color: green;
+}
+
+/*# sourceMappingURL=%5Bproject%5D_packages_ui_src_stories_Input_input_b52d8e.css.map*/

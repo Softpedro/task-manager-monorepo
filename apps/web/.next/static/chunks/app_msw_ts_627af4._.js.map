@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/pedromollehuancatorres/Documents/teach/pruebas/monorepo-demo/apps/web/apps/web/app/msw.ts"],"sourcesContent":["import { worker } from \"../../backend/src/mocks/browser\";\n\nif (process.env.NODE_ENV === \"development\") {\n  import(\"./msw\").then((mswModule) => {\n    const { worker } = mswModule;\n    worker.start();\n  });\n}\n"],"names":[],"mappings":";AAEI;AAAJ,wCAA4C;IAC1C,qHAAgB,IAAI,CAAC,CAAC;QACpB,MAAM,EAAE,MAAM,EAAE,GAAG;QACnB,OAAO,KAAK;IACd;AACF"}},
+    {"offset": {"line": 19, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

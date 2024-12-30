@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/pedromollehuancatorres/Documents/teach/pruebas/monorepo-demo/apps/web/apps/web/app/layout.tsx"],"sourcesContent":["\"use client\";\n\nimport \"./globals.css\";\nimport { QueryClient, QueryClientProvider } from \"@tanstack/react-query\";\nimport { useState } from \"react\";\n\nexport default function RootLayout({\n  children\n}: Readonly<{\n  children: React.ReactNode;\n}>) {\n  const [queryClient] = useState(() => new QueryClient());\n  return (\n    <html lang=\"en\">\n      <body>\n        <QueryClientProvider client={queryClient}>\n          {children}\n        </QueryClientProvider>\n      </body>\n    </html>\n  );\n}\n"],"names":[],"mappings":";;;;AAIA;AADA;AAAA;;;AAHA;;;;AAMe,SAAS,WAAW,EACjC,QAAQ,EAGR;;IACA,MAAM,CAAC,YAAY,GAAG,CAAA,GAAA,4RAAA,CAAA,WAAQ,AAAD;+BAAE,IAAM,IAAI,yPAAA,CAAA,cAAW;;IACpD,qBACE,4TAAC;QAAK,MAAK;kBACT,cAAA,4TAAC;sBACC,cAAA,4TAAC,yRAAA,CAAA,sBAAmB;gBAAC,QAAQ;0BAC1B;;;;;;;;;;;;;;;;AAKX;GAfwB;KAAA"}},
+    {"offset": {"line": 54, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

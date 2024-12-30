@@ -1,0 +1,7 @@
+{
+  "/api/tasks/[id]/route": "app/api/tasks/[id]/route.js",
+  "/api/tasks/route": "app/api/tasks/route.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/api/login/route": "app/api/login/route.js"
+}

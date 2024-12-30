@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/packages/ui/src/stories/Input/input.css"],"sourcesContent":[".storybook-input {\n  font-family: \"Arial\", sans-serif;\n  font-size: 14px;\n  padding: 10px;\n  border: 1px solid #ddd;\n  border-radius: 4px;\n  width: 100%;\n}\n\n.storybook-input--error {\n  border-color: red;\n}\n\n.storybook-input--success {\n  border-color: green;\n}\n"],"names":[],"mappings":"AAAA;;;;;;;;;AASA;;;;AAIA"}},
+    {"offset": {"line": 17, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

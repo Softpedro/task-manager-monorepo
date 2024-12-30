@@ -1,0 +1,71 @@
+/* [project]/packages/ui/src/stories/TaskItem/taskItem.css [app-client] (css) */
+.task-item {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 16px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px #0000001a;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-item h3 {
+  margin: 0 0 8px;
+  font-size: 18px;
+}
+
+.task-item p {
+  margin: 4px 0;
+}
+
+.task-item button {
+  margin-right: 8px;
+  width: fit-content;
+}
+
+.task-item-delete {
+  background-color: #dc3545;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+button {
+  cursor: pointer;
+  font-size: 14px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  transition: background-color .3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+input, textarea, select {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  margin: 4px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input:focus, textarea:focus, select:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+/*# sourceMappingURL=%5Bproject%5D_packages_ui_src_stories_TaskItem_taskItem_b52d8e.css.map*/
